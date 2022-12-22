@@ -11,7 +11,7 @@ Here's a breakdown of the key actions performed by the script:
 7. Retrieve the policy details for the source role management policy assignment and update the policy for the destination role management policy assignment with the same details.
 8. Iterate over each role eligibility schedule in the source subscription and recreate it in the destination subscription.
 
-Overall, this script is useful for copying role eligibility and their management policies (settings) from one Azure subscription to another, which can be helpful when setting up new environments or migrating resources between subscriptions.
+Overall, this script is useful for copying role eligibility and their management policies (settings) from one Azure subscription to another, which can be helpful when setting up new subscription.
 
 External Ref:
 [Assign Azure resource roles in Privileged Identity Management](https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-resource-roles-assign-roles "Assign Azure resource roles in Privileged Identity Management")
